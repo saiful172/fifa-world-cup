@@ -70,7 +70,7 @@ Header Style
      position: absolute;
      width: 187px;
      height: 56px;
-     top: 450px;
+     top: 409px;
      background: #DD0000;
      border: none;
      border-radius: 5px;
@@ -315,8 +315,8 @@ Footer
     }
     .text-container>p{
         position: absolute;
-        width: 82px;
-        top: 113px;
+        width: 127px;
+        top: 78px;
         font-weight: 400;
         font-size: 12px;
         line-height: 15px;
