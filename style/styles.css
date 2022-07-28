@@ -1,0 +1,291 @@
+/* ---------Fonts--------- */
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@1,600&family=Lobster&family=Montserrat:wght@700&family=Poppins:ital,wght@0,500;1,500&display=swap');
+
+/* ------------Base Style---------- */
+*{
+    
+    margin: 0%;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+/* ------------------------------
+Header Style
+-------------------------------- */
+.head-container{
+    position: relative;
+}
+.header-container{
+    
+    display: flex;
+    position: absolute;
+    width: 1300px;
+    height: 646px;
+    left: 20px;
+    background:#161616;
+    border-radius: 30px;
+    
+}
+
+.text-container{
+    position: relative;
+    width: 531px;
+    height: 424px;
+    left: 80px;
+    top: 46px;
+
+}
+.text-container h1{
+    position: absolute;
+    width: 531px;
+    height: 240px;
+    top: 15px;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 82px;
+    color: #FFFFFF;
+  
+
+}
+.text-container p{
+    position: absolute; 
+    width: 506px;
+    height: 78px;
+    top: 300px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+.header-button{
+     display: flex;
+     flex-direction: row;
+     align-items: flex-start;
+     padding: 16px 25px;
+     gap: 10px;
+     position: absolute;
+     width: 187px;
+     height: 56px;
+     top: 450px;
+     background: #DD0000;
+     border: none;
+     border-radius: 5px;
+     transition: all 3s ease;
+
+}
+
+.header-button:hover{
+    transform: scale(1.2);
+    background-color: black;
+}
+.btn{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px; 
+    text-align: center;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.image-container img{
+    position: absolute;
+    width: 400px;
+    height: 563px;
+    left: 801px;
+    top: 83px;
+}
+/* ---------------------
+Blog sTYLE
+------------ */
+.blogs-contain{
+    width: 1300px;
+    position: relative;
+    left: 20px;
+    top: 750px;
+   
+}
+
+.blogs-btn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+    position: absolute;
+    width: 312px;
+    height: 300px;
+    background: #161616;
+    border-radius: 10px;
+}
+
+.blogs-btn> .match{
+    position: absolute;
+    width: 252px;
+    height: 64px;
+    border-radius: 10px;
+    top: 30px; 
+}
+.blogs-btn> .group{
+    position: absolute;
+    width: 252px;
+    height: 64px;
+    top: 120px; 
+    border-radius: 10px;
+}
+
+.blogs-btn >a{
+    position: absolute;
+    width: 252px;
+    height: 64px;
+    background-color: #DD0000;
+    color: #FFFFFF;
+    top: 210px; 
+    border-radius: 20px;
+}
+
+.blogs-btn > a > .blog{
+    position: absolute;
+    width: 252px;
+    height: 64px;
+    background-color: #DD0000;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 10px; 
+}
+
+.blog-container{
+    width: 800px;
+    position: relative;
+    left: 325px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+   
+}
+
+.blog-container > .blogs{
+    box-shadow: 2px 3px 10px rgb(0 0 0 / 0.2);
+    border-radius: 30px;
+}
+.blogs-img img{
+    border-radius: 20px;
+}
+.blogs-img> button{
+    margin: 20px;
+    width: 75px;
+    height: 24px;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    color: #161616;
+}
+.blogs-img>p{
+    width: 272px;
+    margin-left: 20px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    color: #161616;
+    }
+
+.icons-group{
+    display: flex;
+    margin-left: 20px;
+    gap: 40px;
+    padding: 20px 0px 20px 0px;
+}
+.icons-time{
+    display: flex;
+    gap: 15px;
+}
+
+.icons-chat{
+    display: flex;
+    gap: 15px;
+}
+
+/* -----------------
+Footer
+-------------------- */
+.footer-first{
+    width: 1300px;
+    height: 444px;
+    position: relative;
+    left: 0px;
+    top: 900px;
+    background: #161616;
+}
+
+.footer-first> h1{
+    position: absolute;
+    width: 100px;
+    height: 60px;
+    left: 50%;
+    top: 100px;
+    
+    
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 60px;
+    text-align: center;
+    color: #FFFFFF;
+    }
+ .footer-first > hr{
+    position: absolute;
+    width: 1100px;
+    height: 0px;
+    left: 120px;
+    top: 200px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+ .footer-second{
+    position: absolute;
+    left: 300px;
+    top: 280px;
+}
+.footer-second ul{
+    display: flex;
+    gap: 30px;
+}
+
+.footer-second > ul > li{
+    list-style: none;
+}
+.footer-second > ul > li > a{
+    text-decoration: none;
+    color: #FFFFFF;
+    
+}
+.media-icn{
+    display: flex;
+    gap: 40px;
+    position: absolute;
+    top: 80%;
+    left: 40%;
+}
+.media-icn > a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.media-icn > a > i{
+    font-size: 40px;
+    transition: all 1s ease;
+}
+
+.media-icn > a > i:hover{
+    color: royalblue;
+    transform: scale(1.2);
+}   
+
+
+/* Responsive layout */
+
+
+    
+    
+       
